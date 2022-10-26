@@ -6,14 +6,22 @@ Variables
 
 :root {
   /* dark shades of primary color*/
-  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-main-green: #12B36C;
+  --clr-light-green: #E7F7F0;
+  --clr-line-green: #A7E2C8;
   /* primary/main color */
-  --clr-primary-5: hsl(205, 78%, 60%);
+  --clr-main-blue: #0077FF;
+  --clr-light-blue: #E7F7F0;
+  --clr-line-blue: #B7D9FF;
+  --clr-card: #F6FAFB;
+  --clr-features: #4D2EE6;
+  --clr-light-features: #EDEAFC;
+  --clr-line-features: #BDB1F5;
   /* lighter shades of primary color */
-  --clr-primary-7: hsl(205, 90%, 76%);
-  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-orange: #F19D6C;
+  --clr-light-orange: #FFF4E5;
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-text: #333758;
   --clr-grey-3: hsl(209, 34%, 30%);
   /* grey used for paragraphs */
   --clr-grey-5: hsl(210, 22%, 49%);
@@ -40,8 +48,8 @@ Global Styles
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: var(--clr-grey-10);
-  color: var(--clr-grey-1);
+  background: var(--clr-white);
+  color: var(--clr-text);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -53,7 +61,7 @@ a {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: var(--clr-text);
 }
 /* section */
 .section {
